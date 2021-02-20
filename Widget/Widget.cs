@@ -8,6 +8,7 @@ namespace Widget {
 
         public String Size { get; set; }
         public String Color { get; set; }
+        
 
         // methods = calculate price
 
@@ -33,6 +34,7 @@ namespace Widget {
             if (Color == "blue") {
                 price += 5;
             }
+            
 
             return price;
         }
